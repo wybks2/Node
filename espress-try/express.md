@@ -59,4 +59,22 @@ router.param('id', 1024)
 
 2. 返回路由单例
 
-### 看源码
+### 中间件
+1. 错误中间件，就是err
+2. 静态文件中间件
+> 调用静态文件
+
+3. 第三方中间件
+
+### express通过匹配请求路径，然后做request response操作
+app.get
+app.post
+app.all(监听所有请求方法, 可以搭配*,统一处理来自客户端的请求，比如跨域)
+
+设置重定向
+res.location
+res.redirect
+
+### 模板解析
+
+跟着官网做

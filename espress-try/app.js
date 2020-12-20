@@ -5,6 +5,7 @@ const fn12 = new Promise((resolve) => {
   console.log('resolve')
   resolve();
 })
+// 完成跨域
 app.all('*', (req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "X-Requested-With");
