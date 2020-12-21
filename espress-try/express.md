@@ -72,7 +72,7 @@ app.post
 app.all(监听所有请求方法, 可以搭配*,统一处理来自客户端的请求，比如跨域)
 
 设置重定向
-res.location
+res.location（没啥用）
 res.redirect
 
 ### 模板解析
